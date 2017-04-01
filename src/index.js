@@ -2,7 +2,7 @@ const VueSelect = require('./components/Select.vue')
 const mixins = require('./mixins/index')
 
 const install = (Vue, opts) => {
-  Vue.component('v-select', vSelect)
+  Vue.component('v-select', VueSelect)
 }
 
 module.exports = {
