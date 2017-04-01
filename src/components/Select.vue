@@ -302,11 +302,11 @@
 </template>
 
 <script type="text/babel">
-  import pointerScroll from '../mixins/pointerScroll'
-  import typeAheadPointer from '../mixins/typeAheadPointer'
-  import ajax from '../mixins/ajax'
+  const pointerScroll = require('../mixins/pointerScroll')
+  const typeAheadPointer = require('../mixins/typeAheadPointer')
+  const ajax = require('../mixins/ajax')
 
-  export default {
+  module.exports = {
     mixins: [pointerScroll, typeAheadPointer, ajax],
 
     props: {

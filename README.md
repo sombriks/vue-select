@@ -35,8 +35,8 @@ $ npm install vue-select
 Register the component
 
 ```js
-import Vue from 'vue'
-import vSelect from 'vue-select'
+const Vue = require('vue')
+const vSelect = require('vue-select')
 Vue.component('v-select', vSelect)
 ```
 

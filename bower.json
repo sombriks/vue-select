@@ -1,13 +1,14 @@
 {
-  "name": "vue-select",
-  "description": "A native Vue.js select component that provides similar functionality to Select2/Chosen without the overhead of jQuery.",
-  "main": "dist/vue-select.js",
+  "name": "vue-select-mod",
+  "description": "A hopefully temporary fork of sagalbot's vue-select component",
+  "author": "Jeff Sagal <sagalbot@gmail.com>, Leonardo Silveira <sombriks@gmail.com>",
+  "main": "dist/build.js",
   "authors": [
     "Jeff Sagal <sagalbot@gmail.com>"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/sagalbot/vue-select"
+    "url": "https://github.com/sombriks/vue-select"
   },
   "license": "MIT",
   "keywords": [
@@ -19,7 +20,7 @@
   "moduleType": [
     "amd",
     "node",
-    "es6"
+    "globals"
   ],
   "homepage": "http://sagalbot.github.io/vue-select/",
   "ignore": [

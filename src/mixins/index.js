@@ -1,5 +1,5 @@
-import ajax from './ajax'
-import pointer from './typeAheadPointer'
-import pointerScroll from './pointerScroll'
+const ajax = require('./ajax')
+const pointer = require('./typeAheadPointer')
+const pointerScroll = require('./pointerScroll')
 
-export default { ajax, pointer, pointerScroll }
+module.exports = { ajax, pointer, pointerScroll }

@@ -1,5 +1,7 @@
-import VueSelect from './components/Select.vue'
-import mixins from './mixins/index'
+const VueSelect =  require('./components/Select.vue')
+const mixins = require('./mixins/index')
 
-export default VueSelect
-export { VueSelect, mixins }
+module.exports = { VueSelect, mixins }
+
+global.VueSelect = VueSelect
+global.VueSelectMixins = mixins
